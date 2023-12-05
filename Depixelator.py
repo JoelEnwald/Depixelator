@@ -276,12 +276,8 @@ def depixelate(img, imgtype, amount, bias=0):
     # If the required amount of smoothing is high, assemble the LUT's
     if amount == 'high':
         # Assemble the LUTs using De Bruijn sheet
-        # 7x7 kernel
         img_input = cv2.imread("3x3 De Bruijn sheet resized.png")
-        img_target = cv2.imread("3x3 De Bruijn sheet target B.png")
-        # 3x3 kernel
-        #img_input = cv2.imread("2x2 De Bruijn sheet resized.png")
-        #img_target = cv2.imread("2x2 De Bruijn sheet target.png")
+        img_target = cv2.imread("3x3 De Bruijn sheet target A.png")
 
         img_input = cv2.cvtColor(img_input, cv2.COLOR_BGR2GRAY) / 255
         img_target = cv2.cvtColor(img_target, cv2.COLOR_BGR2GRAY) / 255
@@ -362,13 +358,14 @@ imgfolder = "Images"
 
 #imgname = "Beautifly.png"
 #imgname = "9pkmn.png"
-imgname = "Punch_mech.png"
+#imgname = "Punch_mech.png"
 #imgname = "Rhydon.png"
 #imgname = "3BW.png"
 #imgname = "test_image3.png"
 #imgname = "Burst_Laser_II.png"
 #imgname = "Transcendence.png"
-#imgname = "test_image2.png"
+#imgname = "test_image2.png
+imgname = "test_image2_color.png"
 
 img_test = cv2.imread(os.path.join(imgfolder, imgname))
 

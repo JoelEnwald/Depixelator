@@ -13,3 +13,5 @@ Here are example outputs. The first two examples show the different degrees of s
 ![Example3](https://github.com/JoelEnwald/Depixelator/assets/6623412/bc7b3947-762a-473d-bf90-cc4115a6652f)
 ![Example1](https://github.com/JoelEnwald/Depixelator/assets/6623412/9a6e9924-159b-4f86-9e3f-8b0423b4d1ad)
 ![Example2](https://github.com/JoelEnwald/Depixelator/assets/6623412/4e664d29-9168-4ca8-a1a4-c5717b37b4f0)
+
+This project is inspired by the excellent blog post here http://datagenetics.com/blog/december32013/index.html

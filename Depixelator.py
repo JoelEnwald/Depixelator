@@ -351,7 +351,6 @@ def depixelate(img, imgtype, amount, bias=0):
 
     # At the end crop the new image
     new_img = new_img[3:new_img.shape[0]-3, 3:new_img.shape[1]-3]
-
     return new_img
 
 imgtype = "RGB"

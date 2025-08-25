@@ -6,7 +6,7 @@ WARNING: The high setting is currently extremely slow, probably due to how
 the LUT's are searched. Prepare to wait a while if processing big images.
 
 The low setting can be used repeatedly on an image to make it even smoother,
-though all lines will still be at 0, 45 or 90 degree angles.
+though all lines will be at 0, 45 or 90 degree angles.
 
 Here are example outputs. The first two examples show the different degrees of smoothing possible.
 ![Example4](https://github.com/JoelEnwald/Depixelator/assets/6623412/6527181c-7e74-4835-83a8-07244abaf254)

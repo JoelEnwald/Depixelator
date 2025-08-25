@@ -1,6 +1,6 @@
 This is a program meant for upscaling pixel art images by a factor of 3,
 with low or high amount of smoothing. The main function is depixelator.py.
-I use De Bruijn sheets to encode the results I want, into look-up tables (LUT's).
+I use De Bruijn sheets to encode the results I want into look-up tables (LUT's).
 
 WARNING: The high setting is currently extremely slow, probably due to how 
 the LUT's are searched. Prepare to wait a while if processing big images.
